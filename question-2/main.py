@@ -49,6 +49,7 @@ class Rotten:
             temp3 = self.Distance(i, j + 1)
             temp4 = self.Distance(i, j - 1)
      
+            # extra credit (test)
             temp5 = self.Distance(i - 1, j - 1)
             temp6 = self.Distance(i + 1, j - 1)
             temp7 = self.Distance(i + 1, j + 1)
